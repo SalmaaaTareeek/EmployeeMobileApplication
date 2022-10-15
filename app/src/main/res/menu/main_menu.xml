@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:title="Profile">
+
+        <menu>
+
+            <item
+                android:id="@+id/userprofile"
+                android:title="UserProfile"
+                android:icon="@drawable/ic_profile"/>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout"
+                android:icon="@drawable/ic_back"/>
+
+        </menu>
+
+
+</item>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help"
+            android:icon="@drawable/ic_help"/>
+        <item
+            android:id="@+id/privacy"
+            android:title="Privacy"
+            android:icon="@drawable/ic_privacy"/>
+        <item
+            android:id="@+id/ReleaseNotes"
+            android:title="Release Notes"
+            android:icon="@drawable/ic_releases"/>
+
+
+    </group>
+
+
+
+
+</menu>
